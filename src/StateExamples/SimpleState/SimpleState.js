@@ -24,7 +24,7 @@ export default () => {
   function toggleDarkModeCallback({ target }) {
     setDarkMode(target.checked);
   }
-  // Use helper state "items"
+  // Use helper state "item"
   function addGroceriesWithState() {
     // Clone old state, to avoid reference issues
     const newGroceries = [...groceries];
