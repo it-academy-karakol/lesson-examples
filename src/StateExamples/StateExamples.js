@@ -1,11 +1,11 @@
 import React from 'react';
 import classes from './StateExamples.module.css';
-import SimpleState from './SimpleState/SimpleState';
+import SingleNestedState from './SingleNestedState/SingleNestedState';
 
 export default () => {
   return (
     <div className={classes.StateExamples}>
-      <SimpleState />
+      <SingleNestedState />
     </div>
   );
 }
