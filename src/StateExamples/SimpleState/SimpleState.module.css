@@ -1,0 +1,8 @@
+.dark {
+  background-color: rgb(36, 36, 36);
+  color: rgb(230, 230, 230);
+}
+.light {
+  background-color: rgb(230, 230, 230);
+  color: rgb(36, 36, 36);
+}
