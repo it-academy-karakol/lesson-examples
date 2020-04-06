@@ -1,8 +1,8 @@
 import React from 'react';
-import SimpleArrayList from './SimpleArrayList';
+import ObjectArrayList from './ObjectArrayList';
 
 export default () => (
   <div className="ListExamples">
-    <SimpleArrayList />
+    <ObjectArrayList />
   </div>
 );
