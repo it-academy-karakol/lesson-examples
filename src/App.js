@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
-import InputExamples from './InputExamples';
-import StateExamples from './StateExamples/StateExamples';
+import ListExamples from './ListExamples/ListExamples';
 
 export default function() {
   return (
     <div className="App">
-      <StateExamples />
+      <ListExamples />
     </div>
   );
 };
